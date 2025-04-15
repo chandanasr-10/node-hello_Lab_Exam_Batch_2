@@ -18,7 +18,7 @@ spec:
       - name: node-08
         image: chandana2025/nodeapp:v1
         ports:
-        - containerPort: 3000  # Replace with the port your app is running on
+        - containerPort: 3000  
         env:
         - name: NODE_ENV
           value: "production"
